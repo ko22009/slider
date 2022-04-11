@@ -1,0 +1,37 @@
+.container {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 51px;
+  padding-bottom: 16px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.slider {
+  display: flex;
+  gap: 30px;
+  align-items: baseline;
+  position: relative;
+}
+
+.divider {
+  margin-top: 16px;
+  height: 2px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #FFFFFF 51.04%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.sliderWrapper {
+  overflow: hidden;
+}
