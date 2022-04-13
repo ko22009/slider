@@ -31,7 +31,7 @@ const Slider = () => {
       <div className={styles.title}>{countries[activeSlide]}</div>
       <div className={cn(styles.slider, "no-select")}>
         <Icon
-          className="no-shrink"
+          className={cn("no-shrink", styles.leftArrow)}
           iconType="leftArrow"
           onClick={() => swiper?.slidePrev()}
         />
@@ -48,14 +48,14 @@ const Slider = () => {
             loop={true}
             centeredSlides={true}
           >
-            {countries.map((country, i) => (
+            {countries.map((country) => (
               <SwiperSlide key={country}>{country}</SwiperSlide>
             ))}
           </Swiper>
           <div className={styles.divider} />
         </div>
         <Icon
-          className="no-shrink"
+          className={cn("no-shrink", styles.rightArrow)}
           iconType="rightArrow"
           onClick={() => swiper?.slideNext()}
         />

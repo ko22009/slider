@@ -10,20 +10,20 @@
 }
 
 .blue {
-  background: #0468FF;
-  color: #F5F5F5;
+  background: $blueLight;
+  color: $gray20;
 
   &:hover {
-    background: #0052CC;
+    background: $blueMedium;
   }
 
   &:active {
-    background: #0043A7;
+    background: $blueDark;
   }
 }
 
 .white {
-  background: #fff;
+  background: $white;
   box-shadow: 0 2px 12px rgba(31, 31, 31, 0.15);
 
   &:hover {

@@ -1,5 +1,5 @@
 .chip {
-  background: #F4F4F4;
+  background: $gray10;
   border-radius: 18px;
   padding: 4px 24px;
   display: inline-block;
@@ -11,16 +11,16 @@
 }
 
 .chip:hover {
-  background: #FB9155;
-  color: #fff;
+  background: $orangeLight;
+  color: $white;
 }
 
 .active {
-  background: #EB6012;
-  color: #fff;
+  background: $orangeMedium;
+  color: $white;
 }
 
 .active:hover {
-  background: #CB540F;
-  color: #fff;
+  background: $orangeDark;
+  color: $white;
 }

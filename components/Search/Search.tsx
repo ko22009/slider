@@ -25,7 +25,7 @@ const Search = () => {
               setActive={(active) => {
                 setActiveChips({ ...activeChips, [i]: active });
               }}
-              key={i}
+              key={chip}
               active={activeChips[i]}
               title={chip}
             />

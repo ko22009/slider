@@ -1,6 +1,6 @@
 .container {
   font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
+  color: $white;
   text-align: center;
   letter-spacing: 0.5px;
   position: relative;
@@ -34,4 +34,16 @@
 
 .sliderWrapper {
   overflow: hidden;
+}
+
+.leftArrow {
+  position: absolute;
+  left: -50px;
+  top: 7px;
+}
+
+.rightArrow {
+  position: absolute;
+  right: -50px;
+  top: 7px;
 }
